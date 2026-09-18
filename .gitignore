@@ -1,0 +1,41 @@
+# ===== 操作系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ===== eNSP / 抓包 / 大文件 =====
+*.pcapng
+*.cap
+*.cfg.bak
+# 单个大文件（镜像 / 安装包 / 视频）不进仓，放网盘
+*.zip
+*.rar
+*.7z
+*.iso
+*.ova
+*.qcow2
+
+# ===== 凭据 / 本地配置（切勿提交） =====
+*.token
+*.secret
+.env
+gitee_token.txt
+
+# ===== 日志 / 临时 =====
+*.log
+tmp/
+.tmp/
